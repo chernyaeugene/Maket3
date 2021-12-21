@@ -379,22 +379,31 @@ p.posit {
     box-shadow: 0 3px #1A6179 inset;
 
 }
-.f-list {
+.f-navigation {
     width: 1440px;
     background: #344B8E;
+
+}
+.f-list {
+    height: 100%;
+    list-style: none;
     display: flex;
     justify-content: space-between;
     box-sizing: border-box;
     padding: 0 250px 0;
+    margin: 0;
+
 }
 .f-list a {
-    color: white;
-    font-size: 24px;
-    font-weight: bolder;
-    text-decoration: none;
-    margin: 37px 0;
+     color: white;
+     font-size: 24px;
+     font-weight: bolder;
+     text-decoration: none;
 }
 .f-list a:hover {
     text-decoration: none;
     color: #30BAE7;
+}
+.f-list li {
+    margin: 37px 0;
 }
