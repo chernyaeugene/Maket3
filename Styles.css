@@ -3,10 +3,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@600&display=swap');
 
 body {
-    width: 1440px;
-    margin: auto;
     font-family: 'Titillium Web', sans-serif;
+    margin: 0;
 
+}
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 15px;
 }
 .first {
      padding-top: 103px;
@@ -26,23 +30,23 @@ p {
 }
 
 .main-header {
-    width: 1440px;
+    /*width: 1440px;*/
     background: #87509C;
 }
 .header-wrapper {
-    width: 1440px;
+    /*width: 1440px;*/
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin-bottom: 78px;
-    box-sizing: border-box;
-    padding: 0 173px 0 212px;
+     box-sizing: border-box;
+     padding: 0 173px 0 212px;
 }
 .header-logo {
     padding: 60px 0 48px 0;
 }
 .header-navigation {
-    width: 450px;
+    /*width: 450px;*/
 }
 .header-list {
     list-style: none;
@@ -67,16 +71,16 @@ p {
     background-size: cover;
 }
 .header-list li {
-    margin-right: 10px;
+    margin-right: 8px;
 }
 .header-welcome {
-    width: 1440px;
+    /*width: 1440px;*/
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 .header-content {
-    width: 907px;
+    /*width: 907px;*/
     text-align: center;
     color: white;
     font-size: 20px;
@@ -89,7 +93,7 @@ p {
     margin: 0;
 }
 .header-button {
-    width: 293px;
+    /*width: 293px;*/
     margin-bottom: 166px;
 }
 a.welcom-button {
@@ -109,7 +113,7 @@ a.welcom-button:active {
     box-shadow: 0 3px rgb(168,103,5) inset;
 }
 .main-sv {
-    width: 1440px;
+    /*width: 1440px;*/
     background: #17C2A4;
 }
 .main-sv p {
@@ -118,10 +122,10 @@ a.welcom-button:active {
 
 
 .sv-items {
-    width: 1440px;
+    /*width: 1440px;*/
     display: flex;
     justify-content: center;
-    padding-bottom: 115px;
+    padding-bottom: 117px;
 }
 .sv-items div {
     width: 260px;
@@ -144,11 +148,11 @@ a.welcom-button:active {
 }
 
 .main-tm {
-    width: 1440px;
+    /*width: 1440px;*/
     background: #E7F1F8;
 }
 .tm-items {
-    width: 1440px;
+    /*width: 1440px;*/
     display: flex;
     justify-content: center;
     padding-bottom: 119px;
@@ -186,20 +190,20 @@ a.welcom-button:active {
     padding: 0 6px;
 }
 .main-sk {
-    width: 1440px;
+    /*width: 1440px;*/
     background: #FFFFFF;
 }
 .sk-list {
-    width: 1440px;
+    /*width: 1440px;*/
     display: flex;
     justify-content: center;
-    padding-bottom: 95px;
+    padding-bottom: 93px;
 }
 .sk-list div:nth-child(-n+3) {
     margin-right: 32px;
 }
 .main-pf {
-    width: 1440px;
+    /*width: 1440px;*/
     background: #FFDD99;
 }
 .content {
@@ -253,7 +257,7 @@ a.welcom-button:active {
     padding-right: 15px;
 }
 .Portfolio-button {
-    width: 293px;
+    /*width: 293px;*/
     text-align: center;
     margin: auto;
     padding: 63px 0 131px;
@@ -275,7 +279,7 @@ a.welcom-button:active {
     box-shadow: 0 3px rgb(11, 93, 78) inset;
 }
 .main-us {
-    width: 1440px;
+    /*width: 1440px;*/
     background: #D74680;
 }
 
@@ -283,7 +287,7 @@ a.welcom-button:active {
     color: white;
 }
 .us-item {
-    width: 540px;
+    /*width: 540px;*/
     display: flex;
     margin-bottom: 111px;
 }
@@ -292,7 +296,6 @@ a.welcom-button:active {
 }
 .comment p {
     text-align: start;
-    /* margin: 0; */
 }
 .text {
     font-size: 21px;
@@ -315,13 +318,13 @@ p.posit {
     padding: 0 130px 89px 170px;
 }
 .us-list div:nth-child(odd) {
-    margin-right: 46px;
+    margin-right: 126px;
 }
 .us-list div:nth-last-child(-n+2) {
     margin-bottom: 0;
 }
 .main-ms {
-    width: 1440px;
+    /*width: 1440px;*/
     background: #3C5499;
     border-bottom: 2px solid #707070;
 }
@@ -357,7 +360,7 @@ p.posit {
     width: 100%;
 }
 .Message-button {
-    width: 293px;
+    /*width: 293px;*/
     text-align: center;
     margin: auto;
     padding: 91px 0 136px;
@@ -380,7 +383,7 @@ p.posit {
 
 }
 .f-navigation {
-    width: 1440px;
+    /*width: 1440px;*/
     background: #344B8E;
 
 }
