@@ -7,8 +7,8 @@ body {
 }
 .container {
     max-width: 1440px;
-    margin: 0 auto;
-    padding: 0 15px;
+    /*margin: 0 auto;*/
+    /*!*padding: 0 15px;*!*/
 }
 
 .first {
@@ -70,12 +70,6 @@ p {
 .header-list li {
     margin-right: 8px;
 }
-.header-welcome {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-bottom: 166px;
-}
 .header-content {
     text-align: center;
     color: white;
@@ -88,16 +82,20 @@ p {
 .header-content h1 {
     margin: 0;
 }
+.header-button {
+    text-align: center;
+    margin: auto;
+    padding: 63px 0 131px;
+}
 a.welcom-button {
-    display: block;
+    background: rgb(255,156,8);
+    box-shadow: 0 -3px rgb(201,123,6) inset;
     font-weight: bolder;
     color: white;
     font-size: 18px;
     text-decoration: none;
-    padding: 22px 83px;
+    padding: 21px 84px;
     border-radius: 3px;
-    background: rgb(255,156,8);
-    box-shadow: 0 -3px rgb(201,123,6) inset;
     transition: 0.2s;
 }
 a.welcom-button:hover { background: rgb(201,123,6); }
@@ -510,8 +508,16 @@ p.posit {
          font-size: 12px;
          padding: 3px 3px;
      }
-    .header-button{
-        margin-bottom: 75px;
+    a.welcom-button {
+        font-weight: bolder;
+        color: white;
+        font-size: 12px;
+        text-decoration: none;
+        padding: 11px 25px;
+        border-radius: 3px;
+        background: rgb(255,156,8);
+        box-shadow: 0 -3px rgb(201,123,6) inset;
+        transition: 0.2s;
     }
     .sv-items {
         display: flex;
@@ -615,16 +621,14 @@ p.posit {
         box-sizing: border-box;
         padding: 0 50px 0 50px;
     }
-    a.welcom-button {
-        font-weight: bolder;
+    .header-content{
+        text-align: center;
         color: white;
         font-size: 12px;
-        text-decoration: none;
-        padding: 11px 25px;
-        border-radius: 3px;
-        background: rgb(255,156,8);
-        box-shadow: 0 -3px rgb(201,123,6) inset;
-        transition: 0.2s;
+        font-weight: bold;
+        letter-spacing: 1.2px;
+        line-height: 35px;
+        margin: 0 1px 20px 1px;
     }
 
 }
